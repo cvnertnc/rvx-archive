@@ -6,8 +6,8 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "apk"
-included-patches = "'Add splash animation' 'Custom branding icon Revancify Red' 'Enable music search' 'MaterialYou' 'Premium heading'"
-excluded-patches = "'Append time stamps information' 'Custom branding icon Revancify Blue' 'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Custom seekbar color' 'Disable HDR video' 'Disable pip notification' 'Enable gradient loading screen' 'Enable old quality layout' 'Enable seekbar tapping' 'Enable wide search bar' 'Hide account menu' 'Hide captions button' 'Hide cast button' 'Hide collapse button' 'Hide comment component' 'Hide description components' 'Hide feed flyout panel' 'Hide filmstrip overlay' 'Hide floating microphone' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide player button background' 'Hide player flyout panel' 'Hide snack bar' 'Hide suggested video overlay' 'Hide time stamp' 'Hide tooltip content' 'Overlay buttons' 'Swipe controls' 'Theme'"
+included-patches = "'Add splash animation' 'Custom branding icon Revancify Red' 'Enable music search' 'Premium heading'"
+excluded-patches = "'Append time stamps information' 'Custom branding icon Revancify Blue' 'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Custom seekbar color' 'Disable HDR video' 'Disable pip notification' 'Enable gradient loading screen' 'Enable old quality layout' 'Enable seekbar tapping' 'Enable wide search bar' 'Hide account menu' 'Hide captions button' 'Hide cast button' 'Hide collapse button' 'Hide comment component' 'Hide description components' 'Hide feed flyout panel' 'Hide filmstrip overlay' 'Hide floating microphone' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide player button background' 'Hide player flyout panel' 'Hide snack bar' 'Hide suggested video overlay' 'Hide time stamp' 'Hide tooltip content' 'Overlay buttons' 'Swipe controls' 'Theme' 'MaterialYou'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [YouTube-MY]
