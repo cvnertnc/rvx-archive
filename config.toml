@@ -18,6 +18,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
 build-mode = "both"
-excluded-patches = "'Custom branding icon YouTube Music' 'Custom package name' 'Enable old style library shelf' 'Enable old style miniplayer' 'Spoof app version'"
+included-patches = "'Custom branding icon YouTube Music'"
+excluded-patches = "'Custom package name' 'Enable old style library shelf' 'Enable old style miniplayer' 'Spoof app version'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
