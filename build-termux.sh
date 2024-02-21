@@ -19,30 +19,18 @@ ask() {
 	return 1
 }
 
-if [ ! -f ~/.rvmm_"$(date '+%Y%m')" ]; then
-	pr "Setting up environment..."
-	yes "" | apt update -y && apt upgrade -y && pkg install -y openssl git wget jq openjdk-17 zip
-	: >~/.rvmm_"$(date '+%Y%m')"
-fi
+pkg install -y figlet
 
-if [ -f build.sh ]; then cd ..; fi
-	pr "Checking for rvx-app updates"
-	git -C rvx-app fetch
-	if git -C rvx-app status | grep -q 'is behind'; then
-		pr "rvx-app already is not synced with upstream."
-		pr "Cloning rvx-app. config.toml will be preserved."
-		cp -f rvx-app/config.toml .
-		rm -rf rvx-app
-		git clone https://github.com/cvnertnc/rvx-app --recurse --depth 1
-		mv -f config.toml rvx-app/config.toml
-	fi
-else
-	pr "Cloning rvx-app."
-	git clone https://github.com/cvnertnc/rvx-app --recurse --depth 1
-	sed -i '/^enabled.*/d; /^\[.*\]/a enabled = false' rvx-app/config.toml
-fi
+# Display "Lawnchair Magisk" in bigger fonts
+figlet "cvnertnc"
+
+pr "Setting up environment..."
+apt update -y && apt upgrade -y && pkg install -y openssl git wget jq openjdk-17 zip
+rm -rf rvx-app
+rm -rf revanced-magisk-module
+git clone --depth=1 https://github.com/cvnertnc/rvx-app
 cd rvx-app
-chmod +x build.sh build-termux.sh
+chmod +x build.sh
 
 if ask "Do you want to open the config.toml for customizations? [y/n]"; then
 	nano config.toml
