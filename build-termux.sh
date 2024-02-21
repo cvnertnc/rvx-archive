@@ -26,7 +26,6 @@ if [ ! -f ~/.rvmm_"$(date '+%Y%m')" ]; then
 fi
 
 if [ -f build.sh ]; then cd ..; fi
-if [ -d rvx-app ]; then
 	pr "Checking for rvx-app updates"
 	git -C rvx-app fetch
 	if git -C rvx-app status | grep -q 'is behind'; then

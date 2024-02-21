@@ -61,7 +61,7 @@ jobs:
           cp -f build.md build.tmp
 
       - name: Upload modules to release
-        uses: svenstaro/upload-release-action@v2
+        uses: svenstaro/upload-release-action@2.7.0
         with:
           body: ${{ steps.get_output.outputs.BUILD_LOG }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
@@ -112,9 +112,9 @@ jobs:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
         if: env.TG_TOKEN != null
         run: |
-          cd build || { echo "build folder not found"; exit 1; }
+          cd build || { echo "Build folder not found"; exit 1; }
 
-          TG_CHAT="@rvc_magisk"
+          TG_CHAT="@rvxc_magisk"
           NL=$'\n'
           APKS=""
           MODULES=""

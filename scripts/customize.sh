@@ -118,3 +118,7 @@ ui_print "  thanks to ReVanced Team (github.com/ReVanced)"
 ui_print "  thanks to inotia00 (github.com/inotia00)"
 ui_print "  thanks to j-hc (github.com/j-hc)"
 ui_print " "
+
+sleep 0.5
+
+ui_print "  No need to reboot your phone"
