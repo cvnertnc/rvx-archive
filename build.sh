@@ -167,6 +167,8 @@ wait
 rm -rf temp/tmp.*
 if [ -z "$(ls -A1 ${BUILD_DIR})" ]; then abort "All builds failed."; fi
 
+log "\nInstall [VancedxMicroG](https://gitlab.com/cuynu/VancedxMicroG/-/releases) (recommended), [mMicroG](https://github.com/inotia00/mMicroG/releases/latest/), [Vanced Extended MicroG](https://github.com/inotia00/VancedMicroG/releases/latest/) or [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases/latest/) for non-root YouTube and YT Music"
+log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store"
 log "\n[rvx-app](https://github.com/cvnertnc/rvx-app)"
 log "\nChangelog:"
 log "$(cat $TEMP_DIR/*-rv/changelog.md)"
