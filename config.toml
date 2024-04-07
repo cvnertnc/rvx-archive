@@ -17,7 +17,7 @@ excluded-patches = "'Custom package name' 'Enable old style library shelf' 'Enab
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "arm64-v8a"
 
-[YouTube-Rufusin
+[YouTube-Rufusin]
 app-name = "YouTube"
 patches-source = "rufusin/revanced-patches"
 integrations-source = "rufusin/revanced-integrations"
