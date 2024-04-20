@@ -2,7 +2,6 @@ logging-to-file = true        # enables logging of every patch process to a sepe
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/cvnertnc/rvx-app/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
 build-mode = "both"
@@ -24,7 +23,7 @@ integrations-source = "rufusin/revanced-integrations"
 rv-brand = "Rufusin"
 build-mode = "both"
 included-patches = "'Add splash animation' 'Enable song search' 'MaterialYou' 'Custom branding icon YouTube' 'Custom branding heading' 'Spoof app version' 'Spoof player parameters'"
-excluded-patches = "'Append time stamps information' 'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Custom seekbar color' 'Disable HDR video' 'Disable pip notification' 'Enable gradient loading screen' 'Enable old quality layout' 'Enable seekbar tapping' 'Enable wide search bar' 'Hide account menu' 'Hide captions button' 'Hide cast button' 'Hide collapse button' 'Hide comment component' 'Hide description components' 'Hide feed flyout panel' 'Hide filmstrip overlay' 'Hide floating microphone' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide snack bar' 'Hide suggested video overlay' 'Hide time stamp' 'Hide tooltip content' 'Overlay buttons' 'Swipe controls' 'Theme'"
+excluded-patches = "'Append time stamps information' 'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Custom player overlay opacity' 'Custom seekbar color' 'Disable HDR video' 'Disable pip notification' 'Enable gradient loading screen' 'Enable old quality layout' 'Enable seekbar tapping' 'Enable wide search bar' 'Hide account menu' 'Hide button container' 'Hide captions button' 'Hide cast button' 'Hide collapse button' 'Hide comment component' 'Hide description components' 'Hide feed flyout panel' 'Hide filmstrip overlay' 'Hide floating microphone' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide snack bar' 'Hide suggested video overlay' 'Hide time stamp' 'Hide tooltip content' 'Overlay buttons' 'Quick actions components' 'Swipe controls' 'Theme'"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Music-Rufusin]
@@ -38,23 +37,4 @@ excluded-patches = "'Custom package name' 'Enable old style library shelf' 'Enab
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "arm64-v8a"
 
-[YouTube-Anddea]
-app-name = "YouTube"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-rv-brand = "Anddea"
-build-mode = "both"
-included-patches = "'Add splash animation' 'Enable song search' 'MaterialYou' 'Custom branding icon YouTube' 'Custom branding heading' 'Spoof app version' 'Spoof player parameters'"
-excluded-patches = "'Append time stamps information' 'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Custom seekbar color' 'Disable HDR video' 'Disable pip notification' 'Enable gradient loading screen' 'Enable old quality layout' 'Enable seekbar tapping' 'Enable wide search bar' 'Hide account menu' 'Hide captions button' 'Hide cast button' 'Hide collapse button' 'Hide comment component' 'Hide description components' 'Hide feed flyout panel' 'Hide filmstrip overlay' 'Hide floating microphone' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide snack bar' 'Hide suggested video overlay' 'Hide time stamp' 'Hide tooltip content' 'Overlay buttons' 'Swipe controls' 'Theme'"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-
-[Music-Anddea]
-app-name = "Music"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-rv-brand = "Anddea"
-build-mode = "both"
-included-patches = "'Custom branding icon YouTube Music' 'Spoof app version'"
-excluded-patches = "'Custom package name' 'Enable old style library shelf' 'Enable old style miniplayer'"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-arch = "arm64-v8a"
+# see https://github.com/cvnertnc/rvx-app/blob/main/CONFIG.md for more detailed explanations
