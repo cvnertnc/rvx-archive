@@ -19,15 +19,16 @@ patches-source = "inotia00/revanced-patches" # where to fetch patches bundle fro
 integrations-source = "inotia00/revanced-integrations" # where to fetch integrations from. default: "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli" # where to fetch cli from. default: "inotia00/revanced-cli"
 # options like cli-source can also set per app
-rv-brand = "ReVanced Extended" # rebrand from 'ReVanced' to something different. default: "ReVanced"
+rv-brand = "ReVanced Extended" # rebrand from 'ReVanced Extended' to something different. default: "ReVanced Extended"
 
-patches-version = "v2.160.0" # locks the patches version. default: latest available
-integrations-version = "v0.95.0" # locks the integrations version. default: latest available
+patches-version = "v2.111.4" # locks the patches version. default: latest available
+integrations-version = "v0.42.1" # locks the integrations version. default: latest available
+cli-version = "v3.0.1" # locks the CLI version. default: latest available
 
 [Some-App]
 app-name = "SomeApp" # if set, release name becomes SomeApp instead of Some-App. default is same as table name, which is 'Some-App' here.
 enabled = true # whether to build the app. default: true
-version = "auto" # 'auto', 'latest', 'beta' or a custom one e.g. '17.40.41'. default: auto
+version = "auto" # 'auto', 'latest', 'beta' or a custom one e.g. '17.45.36'. default: auto
 # 'auto' option gets the latest possible version supported by all the included patches
 # 'latest' gets the latest stable without checking patches support. 'beta' gets the latest beta/alpha
 include-stock = true # includes stock apk in the module. default: true
