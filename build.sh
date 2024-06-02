@@ -23,8 +23,8 @@ fi
 DEF_PATCHES_VER=$(toml_get "$main_config_t" patches-version) || DEF_PATCHES_VER=""
 DEF_INTEGRATIONS_VER=$(toml_get "$main_config_t" integrations-version) || DEF_INTEGRATIONS_VER=""
 DEF_CLI_VER=$(toml_get "$main_config_t" cli-version) || DEF_CLI_VER=""
-DEF_PATCHES_SRC=$(toml_get "$main_config_t" patches-source) || DEF_PATCHES_SRC="inotia00/revanced-patches"
-DEF_INTEGRATIONS_SRC=$(toml_get "$main_config_t" integrations-source) || DEF_INTEGRATIONS_SRC="inotia00/revanced-integrations"
+DEF_PATCHES_SRC=$(toml_get "$main_config_t" patches-source) || DEF_PATCHES_SRC="anddea/revanced-patches"
+DEF_INTEGRATIONS_SRC=$(toml_get "$main_config_t" integrations-source) || DEF_INTEGRATIONS_SRC="anddea/revanced-integrations"
 DEF_CLI_SRC=$(toml_get "$main_config_t" cli-source) || DEF_CLI_SRC="inotia00/revanced-cli"
 DEF_RV_BRAND=$(toml_get "$main_config_t" rv-brand) || DEF_RV_BRAND="RVX App"
 mkdir -p $TEMP_DIR $BUILD_DIR
