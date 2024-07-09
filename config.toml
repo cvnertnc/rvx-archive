@@ -5,15 +5,8 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "both"
-included-patches = "'Add splash animation' 'Enable song search' 'MaterialYou' 'Custom branding icon YouTube' 'Custom branding heading' 'Spoof app version' 'Spoof player parameters'"
-excluded-patches = "'Append time stamps information' 'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Custom player overlay opacity' 'Custom seekbar color' 'Disable HDR video' 'Disable pip notification' 'Enable gradient loading screen' 'Enable old quality layout' 'Enable seekbar tapping' 'Enable wide search bar' 'Hide account menu' 'Hide button container' 'Hide captions button' 'Hide cast button' 'Hide collapse button' 'Hide comment component' 'Hide description components' 'Hide feed flyout panel' 'Hide filmstrip overlay' 'Hide floating microphone' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide snack bar' 'Hide suggested video overlay' 'Hide time stamp' 'Hide tooltip content' 'Overlay buttons' 'Swipe controls' 'Theme'"
+included-patches = "'MaterialYou' 'Custom branding icon YouTube' 'Force custom branding wordmark header' 'Spoof app version' 'Spoof client'"
+excluded-patches = "'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Enable gradient loading screen' 'Hide comments components' 'Description components' 'Hide feed flyout menu' 'Overlay buttons' 'Swipe controls' 'Theme' 'Disable splash animation'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-
-[Music]
-build-mode = "both"
-included-patches = "'Custom branding icon YouTube Music' 'Spoof app version'"
-excluded-patches = "'Custom package name' 'Enable old style library shelf' 'Enable old style miniplayer'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "arm64-v8a"
 
 # see https://github.com/cvnertnc/rvx-app/blob/main/CONFIG.md for more detailed explanations
