@@ -5,8 +5,8 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "both"
-included-patches = "'MaterialYou' 'Custom branding icon YouTube' 'Force custom branding wordmark header' 'Spoof app version' 'Spoof client'"
-excluded-patches = "'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Enable gradient loading screen' 'Hide comments components' 'Description components' 'Hide feed flyout menu' 'Overlay buttons' 'Swipe controls' 'Theme' 'Disable splash animation'"
+included-patches = "'Custom branding icon for YouTube' 'MaterialYou'"
+excluded-patches = "'Custom double tap length' 'Description components' 'Disable splash animation' 'Enable gradient loading screen' 'Hide comments components' 'Hide feed flyout menu' 'Overlay buttons' 'Swipe controls' 'Theme'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 # see https://github.com/cvnertnc/rvx-app/blob/main/CONFIG.md for more detailed explanations
