@@ -14,11 +14,14 @@ There exists an example below with all defaults shown and all the keys explicitl
 
 ```toml
 parallel-jobs = 1 # amount of cores to use for parallel patching, if not set nproc is used
+compression-level = 9 # module zip compression level
+remove-rv-integrations-checks = true # remove checks from the revanced integrations
+
 patches-source = "anddea/revanced-patches" # where to fetch patches bundle from. default: "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations" # where to fetch integrations from. default: "anddea/revanced-integrations"
 cli-source = "inotia00/revanced-cli" # where to fetch cli from. default: "inotia00/revanced-cli"
 # options like cli-source can also set per app
-rv-brand = "RVX App" # rebrand from 'ReVanced' to something different. default: "RVX App"
+rv-brand = "RVX App" # rebrand from 'ReVanced' to something different. default: "ReVanced"
 
 patches-version = "v2.160.0" # 'latest', 'dev', or a version number. default: "latest"
 # integrations-version and cli-version can be also configured
@@ -39,5 +42,5 @@ uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 module-prop-name = "some-app-magisk" # magisk module prop name.
 apkmirror-dpi = "360-480dpi" # used to select apk variant from apkmirror. default: nodpi
 arch = "arm64-v8a" # 'arm64-v8a', 'arm-v7a', 'all', 'both'. 'both' downloads both arm64-v8a and arm-v7a. default: all
-riplib = true # enables ripping x86 and x86_64 libs from apks with inotia00 revanced cli. default: true
+riplib = true # enables ripping x86 and x86_64 libs from apks with j-hc revanced cli. default: true
 ```
