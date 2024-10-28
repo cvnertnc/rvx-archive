@@ -1,12 +1,13 @@
-logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
+# see https://github.com/cvnertnc/rvx-app/blob/main/CONFIG.md for more detailed explanations
+
+# you can use rvmm-config-gen to generate a config
 
 [YouTube]
 build-mode = "both"
 included-patches = "'Custom branding icon for YouTube' 'MaterialYou'"
 excluded-patches = "'Custom double tap length' 'Description components' 'Disable splash animation' 'Enable gradient loading screen' 'Hide comments components' 'Hide feed flyout menu' 'Overlay buttons' 'Swipe controls' 'Theme'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-
-# see https://github.com/cvnertnc/rvx-app/blob/main/CONFIG.md for more detailed explanations
